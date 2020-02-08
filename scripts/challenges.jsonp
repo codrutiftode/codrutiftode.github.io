@@ -1,0 +1,119 @@
+challengesData = [
+[
+{
+    "challengeNumber": "0",
+    "challengeTitle": "Hello, Nickname",
+    "challengeDesc": "Ask the user for their nickname and then print out the message 'Hello, my dear friend, [the nickname]'.",
+    "input": "Codrut",
+    "output": "Hello, my dear friend, Codrut."
+},
+{
+    "challengeNumber": "1",
+    "challengeTitle": "5 Numbers Product",
+    "challengeDesc": "Get 5 numbers from the keyboard and then print out their product.",
+    "input": "10, 2, 3, 1, 1",
+    "output": "60"
+},
+{
+    "challengeNumber": "2",
+    "challengeTitle": "Online Bear Shop",
+    "challengeDesc": "A user wants to access an online bear shop. Ask the user for their age and print 'Allowed' if they are over 18 or 'Denied' if otherwise.",
+    "input": "Please input your age: 10",
+    "output": "Denied"
+},
+{
+    "challengeNumber": "3",
+    "challengeTitle": "Funny Patterns",
+    "challengeDesc": "A user is curious about finding funny patterns in their name. Ask the user for their first name and then print out the first 3 letters of it.",
+    "input": "Askari",
+    "output": "Ask"
+},
+{
+    "challengeNumber": "4a",
+    "challengeTitle": "Count the Davids.",
+    "challengeDesc": "Get 5 names from the keyboard and store them in an array. Then, count the number of times the name 'David' appears in that list.",
+    "input": "Margaret, Elisa, David, Michael, David",
+    "output": "2"
+},
+{
+    "challengeNumber": "4b",
+    "challengeTitle": "Check for A's",
+    "challengeDesc": "Using some of the code from challenge 4a, go through the 5 names list and check if there is at least one element starting with the letter 'A'. Your output should be either 'True' or 'False'.",
+    "input": "Margaret, Anna, Aladdin, Michael, David",
+    "output": "True"
+},
+{
+    "challengeNumber": "5",
+    "challengeTitle": "Pair Up The Numbers",
+    "challengeDesc": "Get a number from the keyboard and store it as N. Print out 3 pairs of numbers, where the two numbers in each pair, when added, give you N. <i class=\"note\">Note: there are many different ways of doing this.</i>",
+    "input": "20",
+    "output": "4,16 <br> 12,8 <br> 10, 10"
+},
+{
+    "challengeNumber": "6a",
+    "challengeTitle": "Randomness is Everywhere",
+    "challengeDesc": "Generate and print out 10 different random numbers. If the code is right, you should be able to generate 100 or 1000 numbers with only one slight change in the code.",
+    "input": "None",
+    "output": "1, 100, 23, 1, 43, 8, 9, 99, 87, 61"
+},
+{
+    "challengeNumber": "6b",
+    "challengeTitle": "Modular Randomness",
+    "challengeDesc": "Create a subprogram which takes in a number X and then generates and prints out X different random numbers. <i class=\"note\"> Note: You may want to use some of the code written for challenge 6a.</i>",
+    "input": "6",
+    "output": "43, 8, 9, 99, 87, 61"
+},
+],
+
+
+
+[
+{
+    "challengeNumber": "10",
+    "challengeTitle": "Surname Selector",
+    "challengeDesc": "Ask for the user's full name and print out only their surname. <i class=\"hint\">Hint: split the string on the 'space' character. If you don't understand what that means, do some research on the split() function.</i>",
+    "input": "Codrin Iftode",
+    "output": "Iftode"
+},
+{
+    "challengeNumber": "11",
+    "challengeTitle": "Sharing Candies",
+    "challengeDesc": "A father has X candies. Make a program which allows the father to input X, the number of candies, and then tell him if he can split the candies evenly between his 2 children or not. <i class=\"hint\">Hint: The remainder of dividing X by 2. There is also a special python operator.</i>",
+    "input": "31",
+    "output": "The candies cannot be shared evenly."
+},
+{
+    "challengeNumber": "12",
+    "challengeTitle": "Max and Min - More Standard Algorithms",
+    "challengeDesc": "Get an array from the keyboard of 6 real numbers. Then, find and print out the maximum and the minimum elemements from the array. <i class=\"note\">Note: You may want to create 2 subprograms, findMax and findMin, to try and make a fully modular program.</i>",
+    "input": "-1, 2.45, 3.8, 100.1012, -99, 0",
+    "output": "Max: 100.1012 <br> Min: -99"
+},
+{
+    "challengeNumber": "13",
+    "challengeTitle": "Out of Context",
+    "challengeDesc": "Ask the user to input a sentence, and then print the second and fourth word in the sentence. <i class=\"hint\">Hint: You could split() the sentence. Keep in mind, there are other ways to do it.</i>",
+    "input": "The limited income workers have recently benefitted from a rise.",
+    "output": "limited workers"
+}
+],
+
+
+
+[
+{
+    "challengeNumber": "20",
+    "challengeTitle": "Number Guessr",
+    "challengeDesc": "Make a program which randomly picks a number between 1 and 10. Let the user then try and guess the number picked by the computer until they guess it right. <i class=\"note\">Extension: Count and print out the number of tries until they guess it right.</i>",
+    "input": "Guess my number... 2 <br> Wrong. Guess again... 3 <br> Wrong. Guess again... 4",
+    "output": "Well done! 4 was the number I picked. <br> <i class=\"note\">(With Extension) You tried guessing 3 times.</i>"
+},
+{
+    "challengeNumber": "21",
+    "challengeTitle": "Hotel Manager",
+    "challengeDesc": "Create an array of 10 booked room numbers, with values from 300 to 500. Ask the user to input the room number they want to book and then keep asking until they give you a room which had not already been booked.<i class=\"hint\">Hint: A mixture of validation and linear search is needed</i>",
+    "input": "<i>(Booked numbers array in memory - [301, 401, 410])</i><br> Room number? 301. <br>Already booked. Room number? 410. <br>Already booked. Room number? 435.",
+    "output": "Room booked successfully."
+}
+]
+];
